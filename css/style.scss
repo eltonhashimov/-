@@ -1,0 +1,272 @@
+// #section {
+//     width: 100%;
+//     // height: 100vh;
+//     padding: 20px;
+//     background-color: red;
+
+//     .boxes {
+//         position: relative;
+//         margin-bottom: 10px;
+//         background-color: black;
+
+//         .box {
+//             position: relative;
+//             margin-bottom: 10px;
+//             height: 100%;
+//             width: 100%;
+//             img{
+//                 height: 100%;
+//                 width: 100%;
+//                 overflow: hidden;
+//             }
+//             i{
+//                 position: absolute;
+//                 right: 10px;
+//                 top: 10px;
+//                 color: #Fff;
+//                 font-size: 13px;
+//             }
+//         }
+
+//         .message{
+//             position: absolute;
+//             top: 0%;
+//             left: 0%;
+//             line-height:20px;
+//             width: 100%;
+//             height: 100%;
+
+//             border: 2px solid green;
+//             // background-color: rgba(0, 0, 0, 0.349);
+//             text-align: center;
+//             padding: 5px;
+//             // box-shadow: inset 0px 0px 20px 5px #fff;
+//             p{
+//                 color: #fff;
+//                 font-family: cursive;
+//             }
+//         }
+//     }
+// }
+
+
+#header {
+    // border: 1px solid red;
+    padding: 15px 0px 0px 0px;
+    position: relative;
+
+    .left,
+    .right {
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: cursive;
+                    font-weight: bold;
+                    transition: 0.3s ease-in-out;
+                    font-size: 20px;
+                    display: block;
+                    padding: 5px 20px 30px 20px;
+
+                    // border: 1px solid red;
+                    &:hover {
+                        background-color: black;
+                        color: #fff;
+                    }
+                }
+
+
+                &.bike {
+                    &:hover{
+                        .drop-menu{
+                            opacity: 1;
+                            visibility: visible;
+                            transform: translateY(0px);
+                            .drop-mid{
+                                .img-1{
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                    }
+                    .drop-menu {
+                        height: 750px;
+                        // border: 2px solid red;
+                        background-color: black;
+                        position: absolute;
+                        left: 0%;
+                        transition: 0.1s ease-in-out;
+                        width: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transform: translateY(10px);
+
+
+                        .drop-left {
+                            border: 1px solid black;
+                        background-color: black;
+                            height: 748px;
+                            padding: 15px 35px 15px 40px;
+
+                            .num{
+                                color: black;
+                                border: 2px solid #fff;
+                                padding: 0%;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-weight:bold;
+                                padding: 4px 4px 4px 6px;
+                                font-size: 15px;
+                                background-color: #fff;
+                                &:hover{
+                                    background-color: black;
+                                    color: #fff;
+                                    border: 2px solid #fff;
+                                }
+                            }
+
+                            ul{
+                                li{
+                                    // border: 1px solid red;
+                                    padding: 0%;
+                                    margin: 10px 0px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        a{
+                                            color: red;
+                                        }
+                                        p{
+                                            color: red;
+                                        }
+                                    }
+                                    a{
+                                        color: #fff;
+                                        padding: 0%;
+                                        margin: 0%;
+                                        font-size: 25px;
+                                        transition: 0.3s ease-in-out;
+                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                                    }
+                                    p{
+                                        color: #fff;
+                                        transition: 0.3s ease-in-out;
+                                        padding: 0%;
+                                        margin: 0%;
+                                    }
+                                }
+                            }
+
+                            
+                        }
+                        .drop-right{
+                            border: 1px solid black;
+                        background-color: black;
+                        text-align: end;
+                            height: 748px;
+                            padding: 15px 35px 15px 40px;
+                            .a1{
+                                color: #fff;
+                                border: 1px solid #fff;
+                                padding: 0%;
+                                text-align: center;
+                                padding: 10px 0px;
+                                border-radius: 8mm;
+                                transition: 0.3s ease-in-out;
+                                &:hover{
+                                    background-color: #fff;
+                                    color: #000;
+                                }
+                            }
+
+                            .num{
+                                color: black;
+                                border: 2px solid #fff;
+                                padding: 0%;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-weight:bold;
+                                padding: 4px 4px 4px 6px;
+                                font-size: 15px;
+                                background-color: #fff;
+                                &:hover{
+                                    background-color: black;
+                                    color: #fff;
+                                    border: 2px solid #fff;
+                                }
+                            }
+
+                            ul{
+                                li{
+                                    // border: 1px solid red;
+                                    padding: 0%;
+                                    margin: 10px 0px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        a{
+                                            color: red;
+                                        }
+                                        p{
+                                            color: red;
+                                        }
+                                    }
+                                    a{
+                                        color: #fff;
+                                        padding: 0%;
+                                        margin: 0%;
+                                        font-size: 25px;
+                                        transition: 0.3s ease-in-out;
+                                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                                    }
+                                    p{
+                                        color: #fff;
+                                        transition: 0.3s ease-in-out;
+                                        padding: 0%;
+                                        margin: 0%;
+                                    }
+                                }
+                            }
+
+                            
+                        }
+                        .drop-mid{
+                            border: 1px solid black;
+                            height: 748px;
+                            position: relative;
+                            img{
+                                position: absolute;
+                                top: 0%;
+                                left: 0%;
+                                // opacity: 0;
+                                visibility: hidden;
+                                // transition: 0.1s ease-in-out;
+                            }
+
+                            
+
+                            // .img-2{
+                            //     visibility: hidden;
+                            // }
+                        }
+
+                        .drop-right{
+                            height: 748px;
+                            border: 1px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .logo{
+        cursor: pointer;
+    }
+
+
+
+
+
+}

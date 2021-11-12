@@ -1,0 +1,187 @@
+#header {
+  padding: 15px 0px 0px 0px;
+  position: relative;
+}
+#header .left ul li a,
+#header .right ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+  display: block;
+  padding: 5px 20px 30px 20px;
+}
+#header .left ul li a:hover,
+#header .right ul li a:hover {
+  background-color: black;
+  color: #fff;
+}
+#header .left ul li.bike:hover .drop-menu,
+#header .right ul li.bike:hover .drop-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+#header .left ul li.bike:hover .drop-menu .drop-mid .img-1,
+#header .right ul li.bike:hover .drop-menu .drop-mid .img-1 {
+  visibility: visible;
+}
+#header .left ul li.bike .drop-menu,
+#header .right ul li.bike .drop-menu {
+  height: 750px;
+  background-color: black;
+  position: absolute;
+  left: 0%;
+  transition: 0.1s ease-in-out;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+}
+#header .left ul li.bike .drop-menu .drop-left,
+#header .right ul li.bike .drop-menu .drop-left {
+  border: 1px solid black;
+  background-color: black;
+  height: 748px;
+  padding: 15px 35px 15px 40px;
+}
+#header .left ul li.bike .drop-menu .drop-left .num,
+#header .right ul li.bike .drop-menu .drop-left .num {
+  color: black;
+  border: 2px solid #fff;
+  padding: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding: 4px 4px 4px 6px;
+  font-size: 15px;
+  background-color: #fff;
+}
+#header .left ul li.bike .drop-menu .drop-left .num:hover,
+#header .right ul li.bike .drop-menu .drop-left .num:hover {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #fff;
+}
+#header .left ul li.bike .drop-menu .drop-left ul li,
+#header .right ul li.bike .drop-menu .drop-left ul li {
+  padding: 0%;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+#header .left ul li.bike .drop-menu .drop-left ul li:hover a,
+#header .right ul li.bike .drop-menu .drop-left ul li:hover a {
+  color: red;
+}
+#header .left ul li.bike .drop-menu .drop-left ul li:hover p,
+#header .right ul li.bike .drop-menu .drop-left ul li:hover p {
+  color: red;
+}
+#header .left ul li.bike .drop-menu .drop-left ul li a,
+#header .right ul li.bike .drop-menu .drop-left ul li a {
+  color: #fff;
+  padding: 0%;
+  margin: 0%;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header .left ul li.bike .drop-menu .drop-left ul li p,
+#header .right ul li.bike .drop-menu .drop-left ul li p {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  padding: 0%;
+  margin: 0%;
+}
+#header .left ul li.bike .drop-menu .drop-right,
+#header .right ul li.bike .drop-menu .drop-right {
+  border: 1px solid black;
+  background-color: black;
+  text-align: end;
+  height: 748px;
+  padding: 15px 35px 15px 40px;
+}
+#header .left ul li.bike .drop-menu .drop-right .a1,
+#header .right ul li.bike .drop-menu .drop-right .a1 {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0%;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 8mm;
+  transition: 0.3s ease-in-out;
+}
+#header .left ul li.bike .drop-menu .drop-right .a1:hover,
+#header .right ul li.bike .drop-menu .drop-right .a1:hover {
+  background-color: #fff;
+  color: #000;
+}
+#header .left ul li.bike .drop-menu .drop-right .num,
+#header .right ul li.bike .drop-menu .drop-right .num {
+  color: black;
+  border: 2px solid #fff;
+  padding: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding: 4px 4px 4px 6px;
+  font-size: 15px;
+  background-color: #fff;
+}
+#header .left ul li.bike .drop-menu .drop-right .num:hover,
+#header .right ul li.bike .drop-menu .drop-right .num:hover {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #fff;
+}
+#header .left ul li.bike .drop-menu .drop-right ul li,
+#header .right ul li.bike .drop-menu .drop-right ul li {
+  padding: 0%;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+#header .left ul li.bike .drop-menu .drop-right ul li:hover a,
+#header .right ul li.bike .drop-menu .drop-right ul li:hover a {
+  color: red;
+}
+#header .left ul li.bike .drop-menu .drop-right ul li:hover p,
+#header .right ul li.bike .drop-menu .drop-right ul li:hover p {
+  color: red;
+}
+#header .left ul li.bike .drop-menu .drop-right ul li a,
+#header .right ul li.bike .drop-menu .drop-right ul li a {
+  color: #fff;
+  padding: 0%;
+  margin: 0%;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header .left ul li.bike .drop-menu .drop-right ul li p,
+#header .right ul li.bike .drop-menu .drop-right ul li p {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  padding: 0%;
+  margin: 0%;
+}
+#header .left ul li.bike .drop-menu .drop-mid,
+#header .right ul li.bike .drop-menu .drop-mid {
+  border: 1px solid black;
+  height: 748px;
+  position: relative;
+}
+#header .left ul li.bike .drop-menu .drop-mid img,
+#header .right ul li.bike .drop-menu .drop-mid img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  visibility: hidden;
+}
+#header .left ul li.bike .drop-menu .drop-right,
+#header .right ul li.bike .drop-menu .drop-right {
+  height: 748px;
+  border: 1px solid black;
+}
+#header .logo {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
